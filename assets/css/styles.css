@@ -1,0 +1,29 @@
+.navbar.navbar-light.navbar-expand-md {
+  background-color: #DDE8E8;
+}
+
+#portada {
+  text-align: center;
+  background-color: #150941;
+  background-image: url(../../assets/img/portada-background.svg);
+}
+
+#title-portada {
+  color: #DDE8E8;
+  padding: 10px;
+}
+
+#portada-aboutme {
+  color: #DDE8E8;
+  padding: 15px;
+}
+
+#portada-btn {
+  background-color: #f80040;
+  border-color: #f80040;
+  box-shadow: 0 0 0 0.2rem #f80040;
+}
+
+#portada-logo {
+}
+
