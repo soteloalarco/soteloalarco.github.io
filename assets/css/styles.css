@@ -27,3 +27,7 @@
 #portada-logo {
 }
 
+.navbar-light .navbar-toggler {
+  padding: 0.25rem 0.25rem;
+}
+
