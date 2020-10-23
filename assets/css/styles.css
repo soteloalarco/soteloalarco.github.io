@@ -6,6 +6,7 @@
   text-align: center;
   background-color: #150941;
   background-image: url(../../assets/img/portada-background.svg);
+  padding: 10px;
 }
 
 #title-portada {
@@ -21,7 +22,7 @@
 #portada-btn {
   background-color: #f80040;
   border-color: #f80040;
-  box-shadow: 0 0 0 0.2rem #f80040;
+  box-shadow: 0 0 0 0.2rem #150941;
 }
 
 #portada-logo {
@@ -29,5 +30,21 @@
 
 .navbar-light .navbar-toggler {
   padding: 0.25rem 0.25rem;
+}
+
+.icon-navbar {
+  padding: 2px;
+}
+
+@media (min-width: 300px) {
+  #title-portada {
+    padding: 3px;
+  }
+}
+
+@media (min-width: 300px) {
+  #portada-aboutme {
+    padding: 3px;
+  }
 }
 
