@@ -7,6 +7,7 @@
   background-color: #150941;
   background-image: url(../../assets/img/portada-background.svg);
   padding: 10px;
+  background-repeat: no-repeat;
 }
 
 #title-portada {
@@ -46,5 +47,13 @@
   #portada-aboutme {
     padding: 3px;
   }
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  font-family: 'Turret Road';
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: 'Turret Road';
 }
 
