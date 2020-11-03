@@ -26,6 +26,18 @@
   box-shadow: 0 0 0 0.2rem #150941;
 }
 
+#project-btn {
+  background-color: #f80040;
+  border-color: #f80040;
+  box-shadow: 0 0 0 0.2rem #150941;
+}
+
+.portada-btn {
+  background-color: #f80040;
+  border-color: #f80040;
+  box-shadow: 0 0 0 0.2rem #150941;
+}
+
 #portada-logo {
 }
 
@@ -55,5 +67,70 @@
 
 .navbar-light .navbar-nav .nav-link {
   font-family: 'Turret Road';
+}
+
+.section-container {
+  padding: 50px 0 60px;
+}
+
+.title-section {
+  margin-bottom: 20px;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+}
+
+.recent-projects {
+  border-color: #150941;
+}
+
+#hello-world {
+  margin-bottom: 50px;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,.1);
+  background-color: #f80040;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .1rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+@media (max-width: 576px) {
+  .animated-text {
+    transform: scale(0.6);
+    white-space: nowrap;
+  }
+}
+
+.container2, .container2-lg, .container2-md, .container2-sm, .container2-xl {
+  display: flex;
+  flex-flow: wrap-reverse;
+}
+
+.snip1527 {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+  float: left;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 16px;
+  margin: 10px 1%;
+  max-width: 310px;
+  min-width: 250px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.img-circle.img-responsive {
+  border-radius: 80%;
+  height: 100%;
 }
 
