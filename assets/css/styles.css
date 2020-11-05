@@ -18,6 +18,7 @@
 #portada-aboutme {
   color: #DDE8E8;
   padding: 15px;
+  font-weight: 700;
 }
 
 #portada-btn {
@@ -104,7 +105,7 @@ hr {
 
 @media (max-width: 576px) {
   .animated-text {
-    transform: scale(0.6);
+    transform: scale(0.7);
     white-space: nowrap;
   }
 }
@@ -132,5 +133,19 @@ hr {
 .img-circle.img-responsive {
   border-radius: 80%;
   height: 100%;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 1.2rem;
+  background-color: #e9ecef;
+  border-radius: .3rem;
+}
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
 }
 
