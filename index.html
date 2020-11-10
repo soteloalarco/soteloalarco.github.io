@@ -18,11 +18,15 @@
     <link rel="icon" type="image/png" sizes="192x192" href="assets/img/android-icon-192x192.png">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Turret+Road:400,800&amp;subset=latin-ext">
     <link rel="stylesheet" href="assets/css/Animated-Typing-With-Blinking.css">
+    <link rel="stylesheet" href="assets/css/Article-Dual-Column.css">
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
     <link rel="stylesheet" href="assets/css/project-card.css">
+    <link rel="stylesheet" href="assets/css/Simple-Slider.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/Zig-Zag-Timeline-v3.css">
 </head>
@@ -44,9 +48,9 @@
 </div></div>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link active" href="#my_education" style="font-size: 20px;">About me<img class="icon-navbar" src="assets/img/icons8-resume.svg" width="30"></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#recent_projects" style="font-size: 20px;">Projects<img class="icon-navbar" src="assets/img/icons8-code.svg" width="30"></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#social_icons" style="font-size: 20px;">Contact Me<img class="icon-navbar" src="assets/img/icons8-call-me.svg" width="30"></a></li>
+                    <li class="nav-item"><a class="nav-link active" style="font-size: 20px;" href="#">Home&nbsp;<img class="icon-navbar" src="assets/img/icons8-resume.svg" width="30"></a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html" style="font-size: 20px;">Projects<img class="icon-navbar" src="assets/img/icons8-code.svg" width="30"></a></li>
+                    <li class="nav-item"><a class="nav-link" style="font-size: 20px;" href="#social_icons">Contact Me<img class="icon-navbar" src="assets/img/icons8-call-me.svg" width="30"></a></li>
                 </ul>
             </div>
         </div>
@@ -56,7 +60,7 @@
             <div><img data-bs-hover-animate="jello" id="portada-logo" src="assets/img/logo-portada.svg"></div>
             <h1 id="title-portada">Hola!, my name is Rolando Sotelo.</h1>
             <p id="portada-aboutme">I'm a Telematics Engineer, passionate about Software development and IT.</p>
-            <p><a class="btn btn-primary portada-btn" role="button" data-bs-hover-animate="tada" id="portada-btn" href="#recent_projects">About Me!</a></p>
+            <p><a class="btn btn-primary portada-btn" role="button" data-bs-hover-animate="tada" id="portada-btn" href="#about-me">About Me!</a></p>
         </div>
     </div>
     <div class="container text-center" id="hello-world" style="padding-top: 0px;">
@@ -70,11 +74,12 @@
         <h1 id="recent_projects" class="title-section" style="font-family: 'Turret Road', cursive;">My Most Recent Projects:&nbsp;<img width="40" src="assets/img/icons8-code.svg"></h1>
         <div class="card-group">
             <div class="card border-white border rounded shadow-lg" data-bs-hover-animate="pulse" style="width: 230px;/*height: 350px;*/margin: 10px;margin-left: 15px;width: 90%;">
-                <div class="card-body" style="/*width: 205px;*//*height: 350px;*/padding: 0px;margin: 10px;"><img class="d-lg-flex m-auto align-items-lg-center w-100" style="width: 205px;/*height: 115.31px;*/margin-left: 0px;padding-left: 0px;" src="assets/img/abstract-list-is-empty.png">
-                    <h4 class="card-title" style="margin-top: 5px;">Selatko Map-Me</h4>
+                <div class="card-body" style="/*width: 205px;*//*height: 350px;*/padding: 0px;margin: 10px;"><img class="d-lg-flex m-auto align-items-lg-center w-100" style="width: 205px;/*height: 115.31px;*/margin-left: 0px;padding-left: 0px;" src="assets/img/myprofile-page-selatko.png">
+                    <h4 class="card-title" style="margin-top: 5px;">Map-Me Selatko</h4>
                     <h6 class="text-muted card-subtitle mb-2" style="margin-top: 0px;">MERN full-stack | RESTful API | Mapbox SDK</h6>
                     <p class="card-text" style="/*width: 180px;*/margin-top: 15px;margin-bottom: 20px;">A Web Application for listing and storing the places you have traveled to, so you can share them with other users.</p>
-                    <div class="btn-group" role="group"><a class="btn btn-primary" role="button" style="background-color: rgb(72,72,72);" href="https://selatko-map-me.herokuapp.com/">LIVE</a><button class="btn btn-primary" type="button" style="margin-left: 7px;background: #150941;">INFO</button></div>
+                    <div class="btn-group" role="group"><a class="btn btn-primary" role="button" style="background-color: rgb(72,72,72);" href="https://selatko-map-me.herokuapp.com/" target="_blank">LIVE</a><a class="btn btn-primary" role="button" style="margin-left: 7px;background: #150941;"
+                            href="projects.html/#selatko-map-me" target="_blank">INFO</a></div>
                 </div>
             </div>
             <div class="card border-white border rounded shadow-lg" data-bs-hover-animate="pulse" style="width: 230px;/*height: 350px;*/margin: 10px;margin-left: 15px;width: 90%;">
@@ -82,18 +87,18 @@
                     <h4 class="card-title" style="margin-top: 5px;">IoT Traffic Simulator</h4>
                     <h6 class="text-muted card-subtitle mb-2" style="margin-top: 0px;">IoT Traffic Models | Python | Tkinter GUI</h6>
                     <p class="card-text" style="/*width: 180px;*/margin-top: 15px;margin-bottom: 20px;">IoT traffic simulator, which implements the NB-IoT technology, with the goal of analyzing the QoS provided to IoT devices.</p>
-                    <div class="btn-group" role="group"><a class="btn btn-primary" role="button" style="background-color: rgb(72,72,72);" href="https://github.com/soteloalarco/cmmpptraffic-noma-aided-nbiot-simulator">GITHUB</a><button class="btn btn-primary" type="button" style="margin-left: 7px;background: #150941;">INFO</button></div>
-                </div>
-            </div>
-            <div class="card border-white border rounded shadow-lg" data-bs-hover-animate="pulse" style="width: 230px;/*height: 350px;*/margin: 10px;margin-left: 15px;width: 90%;">
-                <div class="card-body" style="/*width: 205px;*//*height: 350px;*/padding: 0px;margin: 10px;"><img class="d-lg-flex m-auto align-items-lg-center w-100" style="width: 205px;/*height: 115.31px;*/margin-left: 0px;padding-left: 0px;" src="assets/img/abstract-1281.png">
-                    <h4 class="card-title" style="margin-top: 5px;">Project Name</h4>
-                    <h6 class="text-muted card-subtitle mb-2" style="margin-top: 0px;">tags</h6>
-                    <p class="card-text" style="/*width: 180px;*/margin-top: 15px;margin-bottom: 20px;">Donec id elit non mi porta gravida at eget metus. Project description</p>
-                    <div class="btn-group" role="group"><button class="btn btn-primary" type="button" style="background-color: rgb(72,72,72);">Github</button><button class="btn btn-primary" type="button" style="margin-left: 7px;background: #150941;">INFO</button></div>
+                    <div class="btn-group" role="group"><a class="btn btn-primary" role="button" style="background-color: rgb(72,72,72);" href="https://github.com/soteloalarco/cmmpptraffic-noma-aided-nbiot-simulator" target="_blank">GITHUB</a><button class="btn btn-primary" type="button"
+                            style="margin-left: 7px;background: #150941;">INFO</button></div>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="container text-center" id="about-me" style="padding-top: 0px;">
+        <hr>
+        <h1 style="font-family: 'Turret Road', cursive;">About Me !&nbsp;<img src="assets/img/icons8-administrator-male.svg" width="40"></h1>
+        <p>My name is Rolando Sotelo Alarcon, I'm a Telematics Engineer, Software Developer and Boardgames aficionado from Mexico. I just finished my Bsc and I'm currently working on projects for my Portfolio. I can't wait to start my career. Nowdays, what
+            I feel more passionate about is Software Development, Cloud Computing and Cybersecurity. When I'm not developing and building things, you can find me learning new technologies on blogs and books, working on my own boardgame, or reading sci-fi
+            novels.</p>
     </div>
     <div class="container text-center section-container" style="padding-top: 0px;">
         <hr>
@@ -101,7 +106,7 @@
   <div class="row">
     <div class="col-lg-12">
       <p>
-        Bachelor's Degree in Telematics Engineering + International experience studying abroad in a multicultural
+        Bachelor's Degree in Telematics Engineering + International experience studying abroad in a multicultural and multilingual
 environment.
       </p>
       <ul class="timeline">
@@ -110,8 +115,8 @@ environment.
             <img class="img-circle img-responsive" src="https://i.pinimg.com/236x/78/9c/06/789c067732ec9b594dda59c23286028a--soy-.jpg" alt="IPN">
           </div>
           <div class="timeline-panel">
-            <div class="timeline-heading">
-                <h4>Telematics Engineering</h4>
+            <div class="timeline-heading"><a href="https://www.upiita.ipn.mx/oferta-educativa/telematica" target="_blank">
+                <h4>Telematics Engineering</h4> </a>
               <h4 class="subheading">UPIITA - Instituto Politécnico Nacional, Mexico.</h4>
             </div>
             <div class="timeline-body">
@@ -128,8 +133,8 @@ environment.
             <img class="img-circle img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Sedessapientiae1993.svg/1200px-Sedessapientiae1993.svg.png" alt="L'UCL">
           </div>
           <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4>Computer Science</h4>
+            <div class="timeline-heading"><a href="https://uclouvain.be/en/faculties/epl" target="_blank">
+                <h4>Computer Science</h4></a>
               <h4 class="subheading">Université Catholique de Louvain, Belgium.</h4>
             </div>
             <div class="timeline-body">
@@ -191,22 +196,26 @@ environment.
     </div>
     <div class="footer-basic" style="background: linear-gradient(white 38%, #150941 73%);">
         <footer>
-            <div id="social_icons" class="social"><a href="https://github.com/soteloalarco"><img src="assets/img/icons8-github.svg" width="40px" alt="github"></a><a href="https://www.linkedin.com/in/rolando-sotelo-alarcon-telematica/"><img src="assets/img/icons8-linkedin-circled.svg" width="40px"></a><a href="https://twitter.com/SoteloRo1"><img src="assets/img/icons8-twitter-circled.svg" width="40px"></a></div>
-            <ul
-                class="list-inline">
+            <div id="social_icons" class="social"><a href="https://github.com/soteloalarco" target="_blank"><img src="assets/img/icons8-github.svg" width="40px" alt="github"></a><a href="https://www.linkedin.com/in/rolando-sotelo-alarcon-telematica/" target="_blank"><img src="assets/img/icons8-linkedin-circled.svg" width="40px"></a>
+                <a
+                    href="https://twitter.com/SoteloRo1" target="_blank"><img src="assets/img/icons8-twitter-circled.svg" width="40px"></a>
+            </div>
+            <ul class="list-inline">
                 <li class="list-inline-item"><a href="#" style="font-family: 'Turret Road', cursive;font-weight: 700;">Home</a></li>
-                <li class="list-inline-item"><a href="#my_education" style="font-family: 'Turret Road', cursive;font-weight: 700;">About Me</a></li>
+                <li class="list-inline-item"><a href="#about-me" style="font-family: 'Turret Road', cursive;font-weight: 700;">About Me</a></li>
                 <li class="list-inline-item"><a href="#recent_projects" style="font-family: 'Turret Road', cursive;font-weight: 700;">My Projects</a></li>
                 <li class="list-inline-item"><a href="#social_icons" style="font-family: 'Turret Road', cursive;font-weight: 700;">Contact Me</a></li>
-                </ul>
-                <p class="copyright">Last Edited By Rolando Sotelo | November 2020</p>
-                <p class="copyright">rolandosoteloalarcon@gmail.com</p>
+            </ul>
+            <p class="copyright">Last Edited By Rolando Sotelo | November 2020</p>
+            <p class="copyright">rolandosoteloalarcon@gmail.com</p>
         </footer>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="assets/js/Animated-Typing-With-Blinking.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <script src="assets/js/Simple-Slider.js"></script>
 </body>
 
 </html>

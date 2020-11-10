@@ -6,7 +6,7 @@
   text-align: center;
   background-color: #150941;
   background-image: url(../../assets/img/portada-background.svg);
-  padding: 10px;
+  padding: 5px;
   background-repeat: no-repeat;
 }
 
@@ -71,7 +71,6 @@
 }
 
 .section-container {
-  padding: 50px 0 60px;
 }
 
 .title-section {

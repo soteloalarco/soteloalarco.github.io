@@ -18,20 +18,162 @@
     <link rel="icon" type="image/png" sizes="192x192" href="assets/img/android-icon-192x192.png">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Turret+Road:400,800&amp;subset=latin-ext">
     <link rel="stylesheet" href="assets/css/Animated-Typing-With-Blinking.css">
+    <link rel="stylesheet" href="assets/css/Article-Dual-Column.css">
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
     <link rel="stylesheet" href="assets/css/project-card.css">
+    <link rel="stylesheet" href="assets/css/Simple-Slider.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/Zig-Zag-Timeline-v3.css">
 </head>
 
 <body>
+    <nav class="navbar navbar-light navbar-expand-md">
+        <div class="container-fluid"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="text-nowrap d-flex justify-content-center align-items-center animated-text noSelect"
+                style="background: rgba(255,255,255,0);border-style: none;width: 50%;margin-right: auto;margin-left: auto;"><div class="caption v-middle text-center">
+    <h1 class="cd-headline clip">
+        <span class="blc"> &#10100; Rolando :</span>
+        <span class="cd-words-wrapper">
+          <b class="is-visible">"Portfolio" &#10101;</b>
+          <b>"I'm an Engineer" &#10101;</b>
+          <b>"I'm a Developer" &#10101;</b>
+        </span>
+        <span class="blinking">|</span>
+    </h1>
+</div></div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" style="font-size: 20px;" href="index.html">Home&nbsp;<img class="icon-navbar" src="assets/img/icons8-resume.svg" width="30"></a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#recent_projects" style="font-size: 20px;">Projects<img class="icon-navbar" src="assets/img/icons8-code.svg" width="30"></a></li>
+                    <li class="nav-item"><a class="nav-link" style="font-size: 20px;" href="contact-me.html">Contact Me<img class="icon-navbar" src="assets/img/icons8-call-me.svg" width="30"></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div>
+        <div class="jumbotron pulse animated" id="portada">
+            <div><img data-bs-hover-animate="jello" id="portada-logo" src="assets/img/logo-portada.svg"></div>
+            <h1 id="title-portada">Hi There ! Here you can see some of my work.</h1>
+            <p id="portada-aboutme">This page shows my latest Projects. You can always contact me if any question arises.</p>
+            <p><a class="btn btn-primary portada-btn" role="button" data-bs-hover-animate="tada" id="portada-btn" href="#recent_projects">Explore them!</a></p>
+        </div>
+    </div>
+    <div class="container text-center" id="about-me" style="padding-top: 0px;">
+        <h1 style="font-family: 'Turret Road', cursive;">About Me !&nbsp;<img src="assets/img/icons8-administrator-male.svg" width="40"></h1>
+        <p>My name is Rolando Sotelo Alarcon, I'm a Telematics Engineer, Software Developer and Boardgames aficionado from Mexico. I just finished my Bsc and I'm currently working on projects for my Portfolio. I can't wait to start my career. Nowdays, what
+            I feel more passionate about is Software Development, Cloud Computing and Cybersecurity. When I'm not developing and building things, you can find me learning new technologies on blogs and books, working on my own boardgame, or reading sci-fi
+            novels.</p>
+    </div>
+    <div class="container text-center section-container" style="padding-top: 0px;">
+        <hr>
+        <h1 id="recent_projects" class="title-section" style="font-family: 'Turret Road', cursive;">My Most Recent Projects:&nbsp;<img width="40" src="assets/img/icons8-code.svg"></h1>
+        <p>These make for my most recent projects that I'd like to highlight. Click on one to see more details or scroll down to see all of them.</p>
+    </div>
+    <div class="simple-slider" style="background: linear-gradient(rgb(255,255,255) 0%, #150941 34%, #150941 68%, white 100%);">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="max-width: auto;"><a class="d-flex" href="#selatko-map-me" style="max-width: 80%;margin: auto;"><img class="d-xl-flex align-items-xl-end" src="assets/img/main-page-selatko.png" style="margin: auto;max-width: auto;height: 500px;"></a></div>
+                <div class="swiper-slide" style="background-image:url(https://placeholdit.imgix.net/~text?txtsize=68&amp;txt=Slideshow+Image&amp;w=1920&amp;h=500);"></div>
+                <div class="swiper-slide" style="background-image:url(https://placeholdit.imgix.net/~text?txtsize=68&amp;txt=Slideshow+Image&amp;w=1920&amp;h=500);"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+    <div class="container text-center section-container" style="padding-top: 40px;">
+        <hr>
+        <h1 id="recent_projects-1" class="title-section" style="font-family: 'Turret Road', cursive;">A More Detail Explanation of them:&nbsp;<img width="40" src="assets/img/icons8-graph-report.svg"></h1>
+    </div>
+    <div class="article-dual-column">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <div class="intro">
+                        <h1 class="text-center" id="selatko-map-me">Map-Me Selatko</h1>
+                        <p class="text-center"><span class="by">created by</span> <a href="#">&nbsp;ROLANDO SOTELO</a><span class="date">NOV, 2020</span></p><img class="img-fluid" src="assets/img/myprofile-page-selatko.png" style="max-width: 100%;"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-10 col-lg-3 offset-md-1">
+                    <div class="toc">
+                        <p>where to find it</p>
+                        <ul>
+                            <li><a href="https://selatko-map-me.herokuapp.com/" target="_blank">Live&nbsp;</a> </li>
+                            <li><a href="https://github.com/soteloalarco/selatko-map-me" target="_blank">Github repository</a></li>
+                        </ul>
+                    </div>
+                    <div class="toc">
+                        <p>Technologies &amp; TOOLS used</p>
+                        <ul>
+                            <li><a href="https://nodejs.org/es/" target="_blank">Node.js</a> </li>
+                            <li><a href="https://expressjs.com/es/" target="_blank">Express</a></li>
+                            <li><a href="https://www.mongodb.com/" target="_blank">Mongodb</a> </li>
+                            <li><a href="https://reactjs.org/" target="_blank">React</a> </li>
+                            <li><a href="https://docs.mapbox.com/mapbox-gl-js/api/" target="_blank">Mapbox SDK</a> </li>
+                            <li><a href="https://www.heroku.com" target="_blank">Heroku</a>&nbsp;</li>
+                            <li><a href="https://www.github.com" target="_blank">Git + Github</a> </li>
+                            <li><a href="https://www.postman.com/" target="_blank">Postman</a> </li>
+                        </ul>
+                    </div>
+                    <div class="toc">
+                        <p>Techniques implemented</p>
+                        <ul>
+                            <li><a href="https://jwt.io/" target="_blank">JSON Web Token (auth)</a> </li>
+                            <li><a href="https://docs.mongodb.com/manual/tutorial/model-embedded-one-to-many-relationships-between-documents/" target="_blank">Embedded Documents (Mongodb)</a> </li>
+                            <li><a href="https://travis-ci.org/" target="_blank">CI with Travis CI</a> </li>
+                            <li><a href="https://mochajs.org/" target="_blank">Unit testing (mocha)</a> </li>
+                            <li><a href="https://eslint.org/" target="_blank">ESLint</a> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-10 col-lg-7 offset-md-1 offset-lg-0">
+                    <div class="text">
+                        <p>Map-Me Selatko is a Web Application for logging visits in a map and sharing them with&nbsp; friends. It implements a RESTful API with CRUDL and auth functionalities. The MERN stack was the chosen development framework.<br></p>
+                        <p>The main features are as follows:&nbsp;<strong>Sign up</strong>: Users can register by creating a new account using an email address.&nbsp;<strong>User list</strong>: Any visitor can see a list of all registered users.&nbsp;<strong>Authentication</strong>:
+                            Registered users can sign-in and sign-out.&nbsp;<strong>Protected user profile</strong>: Only registered users can view individual user details and maps after signing in.&nbsp;<strong>Authorized user edit and delete</strong>:
+                            Only a registered and authenticated user can edit or remove their own user account details.&nbsp;<strong>Map entries (Visits):&nbsp;</strong>Only a registered and authenticated user can create, edit or remove their own map
+                            entries.</p>
+                        <h2>Authentication</h2>
+                        <p>Some of the mentioned user CRUDL operations, including user details and map entries, have protected access, which required the requesting client to be authenticated, authorized, or both. I used&nbsp;&nbsp;<strong>JSON Web Token</strong>&nbsp;(<strong>JWT</strong>)&nbsp;mechanism
+                            to implement these authentication features.&nbsp;<strong>JWT</strong>&nbsp;is a stateless authentication mechanism that does not require storing user state on the server side.</p>
+                        <figure class="figure"><img class="figure-img" src="assets/img/main-page-selatko.png">
+                            <figcaption class="figure-caption">Landing page for Map-Me Selatko</figcaption>
+                        </figure>
+                        <p>Material-ui was the framework used for faster and simpler GUI implementation and react-map-gl was the selected suite for making the use of Mapbox GL JS in React easy.</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+    <div class="footer-basic" style="background: linear-gradient(white 38%, #150941 73%);">
+        <footer>
+            <div id="social_icons" class="social"><a href="https://github.com/soteloalarco" target="_blank"><img src="assets/img/icons8-github.svg" width="40px" alt="github"></a><a href="https://www.linkedin.com/in/rolando-sotelo-alarcon-telematica/" target="_blank"><img src="assets/img/icons8-linkedin-circled.svg" width="40px"></a>
+                <a
+                    href="https://twitter.com/SoteloRo1" target="_blank"><img src="assets/img/icons8-twitter-circled.svg" width="40px"></a>
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a style="font-family: 'Turret Road', cursive;font-weight: 700;" href="index.html">Home</a></li>
+                <li class="list-inline-item"><a href="#about-me" style="font-family: 'Turret Road', cursive;font-weight: 700;">About Me</a></li>
+                <li class="list-inline-item"><a href="#recent_projects" style="font-family: 'Turret Road', cursive;font-weight: 700;">My Projects</a></li>
+                <li class="list-inline-item"><a href="#social_icons" style="font-family: 'Turret Road', cursive;font-weight: 700;">Contact Me</a></li>
+            </ul>
+            <p class="copyright">Last Edited By Rolando Sotelo | November 2020</p>
+            <p class="copyright">rolandosoteloalarcon@gmail.com</p>
+        </footer>
+    </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="assets/js/Animated-Typing-With-Blinking.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <script src="assets/js/Simple-Slider.js"></script>
 </body>
 
 </html>
